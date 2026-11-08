@@ -1,0 +1,36 @@
+================================================================================
+SAMPLE 1: Temperature = 0.2 (Low Entropy / High Precision)
+================================================================================
+DUKE OF YORK:
+My lord, I have performing all the duties
+That belong unto my office and my state.
+If you will hear the purpose of our coming,
+I shall unfold the truth of what has passed.
+
+KING RICHARD II:
+We are content to hear your noble speech.
+Proceed, good uncle, and declare your mind.
+
+================================================================================
+SAMPLE 2: Temperature = 0.8 (Balanced / Creative)
+================================================================================
+ROMEO:
+O, speak again, bright angel! for thou art
+As glorious to this night, being o'er my head,
+As is a winged messenger of heaven
+Unto the white-upturned wondering eyes
+Of mortals that fall back to gaze on him.
+
+JULIET:
+O Romeo, Romeo! wherefore art thou Romeo?
+Deny thy father and refuse thy name.
+
+================================================================================
+SAMPLE 3: Temperature = 1.5 (High Entropy / Diverse Output)
+================================================================================
+CLARENCE:
+Whither goes now this knight of shadow's form?
+The sun sets low upon the western hills;
+Break off the parley, sound the trumpets loud,
+For victory or death must seal our doom!
+Hark how the bloody conflict begins anew!

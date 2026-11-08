@@ -1,0 +1,7 @@
+problem,model,seed,seq_len,test_acc,macro_f1,test_mse,params,sec_per_epoch,val_loss_nats,bits_per_char,notes
+1,RNN,0,128,0.862,0.854,,4800,1.2,,,HAR vanilla RNN baseline
+1,LSTM,0,128,0.925,0.921,,19200,2.4,,,HAR LSTM baseline
+1,GRU,0,128,0.918,0.915,,14400,1.8,,,HAR GRU baseline
+1,LSTM,0,200,,,0.008,19200,3.1,,,Adding problem T=200 forget_bias=1
+1,LSTM_bias0,0,200,,,0.165,19200,3.1,,,Adding problem T=200 ablation forget_bias=0 (Odd ID variant)
+2,TransformerLM,0,128,,,,812544,12.5,1.62,2.337,Tiny Shakespeare causal LM 4 layers d=128
